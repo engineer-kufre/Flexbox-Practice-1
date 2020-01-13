@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem 1.5rem .5rem;
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+nav a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+.name:hover {
+    padding-left: 2rem;
+}
+ul {
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header {
+    position: fixed;
+    z-index: -1;
+}
+.header-text {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.welcome {
+    padding: 350px 0 0 80px;
+    color: white;
+    font-size: 150%;
+}
+.header-bottom {
+    padding: 150px 100px 0 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.social {
+    width: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.news {
+    background: linear-gradient(rgb(204, 202, 202), white);
+}
+.section-title {
+    text-align: center;
+    padding-top: 100px;
+}
+.section-rider {
+    text-align: center;
+    padding-top: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+.news-img {
+    margin: 0 auto;
+    padding: 150px 0 30px 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.news-imgs {
+    display: flex;
+    flex-direction: column;
+}
+.date {
+    width: 120px;
+    background-color: black;
+    color: white;
+    padding: 2px 0 2px 5px;
+    margin: 10px 0;
+}
+.travel {
+    background-color: rgb(221, 218, 218);
+    padding-bottom: 30px;
+}
+.travel-grid {
+    margin: 0 auto;
+    padding: 50px 0 30px 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.travel-imgs {
+    display: flex;
+    width: 45%;
+    margin-top: 100px;
+}
+.travel-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.travel-text-header {
+    padding-top: 10px;
+    font-weight: 700;
+}
+.load {
+    text-align: center;
+    margin: 50px 
+}
+.load a {
+    background-color: rgb(5, 153, 238);
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+.load a:hover {
+    background-color: rgb(23, 98, 141);
+}
+.ntw {
+    background-color: rgb(247, 244, 244);
+    padding-bottom: 100px;
+}
+.ntw-img {
+    margin: 0 auto;
+    padding: 150px 0 30px 0;
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ntw-date {
+    width: 120px;
+    background-color: black;
+    color: white;
+    padding: 2px 25px 2px 5px;
+}
+.ntw-imgs p {
+    width: 85%;
+}
+.ntw-imgs img {
+    margin-bottom: 5px;
+}
+.ntw-txt-title {
+    margin-top: 15px;
+    font-weight: bold;
+}
+.about-grid {
+    padding-top: 150px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.about-grid-imgs {
+    display: flex;
+    width: 48%;
+    justify-content: space-evenly;
+}
+.about-grid-txt {
+    width: 50%;
+}
+.about-grid-txt p {
+    margin-bottom: 15px;
+}
+footer {
+    background-color: black;
+}
+.footer-grid {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    padding: 150px 0 200px 0;
+    color: white;
+}
+.footer-list {
+    flex: 1;
+}
+.footer-newsletter {
+    flex: 2;
+}
+.footer-newsletter input {
+    height: 40px;
+    margin: 15px;
+    border-radius: 20px;
+    flex: 2;
+    padding-left: 10px;
+}
+.footer-insta {
+    width: 250px;
+    margin-left: 100px;
+}
+.footer-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.footer-imgs img {
+    margin-bottom: 5px;
+}
+.input {
+    display: flex;
+}
+.input button {
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 45px;;
+    border-radius: 20px;
+    flex: 1;
+    color: white;
+    background-color: black;
+}
+.input button:hover {
+    color: black;
+    background-color: white;
+}
